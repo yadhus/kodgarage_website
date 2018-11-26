@@ -1,0 +1,249 @@
+
+footer {
+    height: 200px;
+    background-image: linear-gradient(to top, rgba(19, 28, 37, 0.79), rgba(19, 28, 37, 0.92) 34%, #131c25 74%)
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.Company-About-Us-Services-Work-With-Us-Contact{
+    position: relative;
+    /* left: 150px;
+    top: -100px; */
+    margin: 10px 0px 0px 0px;
+    /* width: 110px; */
+    /* height: 100px; */
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #828282;
+}
+
+.company{
+    font-size: 17px;
+    font-weight: 500;
+    color: #ff981a;
+}
+
+/* .col-sm-3{
+    padding: 50px;
+} */
+
+
+
+.KodGarageFeatures-Pricing-Blog-Community {
+    position: relative;
+    /* left: 150px;
+    top: -100px; */
+    margin: 10px 0px 0px 0px;
+    /* width: 100px; */
+    /* height: 100px; */
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #828282;
+  }
+  
+  .Privacy-Privacy-Policy-Terms-and-Conditions-Websit {
+    position: relative;
+    margin: 10px 0px 0px 0px;
+    /* width: 180px; */
+    /* height: 100px; */
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    color: #828282;
+  }
+
+  .kodgarage2018{
+      /* position: absolute; */
+    /* width: 192px;
+    height: 59px; */
+    margin: 160px 0px 0px 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #828282;
+  }
+
+  .twitter-icon {
+    position: absolute;
+    margin: 105px 0px 0px 135px;
+    width: 39px;
+    height: 37px;
+    object-fit: contain;
+    mix-blend-mode: undefined;
+  }
+
+  .instagram-icon {
+    position: absolute;
+    margin: 105px 0px 0px 190px;
+    width: 40px;
+    height: 39px;
+    object-fit: contain;
+    mix-blend-mode: undefined;
+  }
+
+  .linkedin-icon {
+    position: absolute;
+    margin: 105px 0px 0px 80px;
+    width: 39px;
+    height: 39px;
+    object-fit: contain;
+    mix-blend-mode: undefined;
+  }
+
+  .fb-icon {
+    position: absolute;
+    margin: 105px 0px 0px 25px;
+    width: 40px;
+    height: 39px;
+    object-fit: contain;
+    mix-blend-mode: undefined;
+  }
+
+.logo-icon{
+    position:absolute;
+    margin: 20px 0px 0px -30px;
+}
+
+@media (max-width: 767px){
+
+  
+footer {
+  height: 600px;
+  background-image: linear-gradient(to top, rgba(19, 28, 37, 0.79), rgba(19, 28, 37, 0.92) 34%, #131c25 74%)
+}
+
+.Company-About-Us-Services-Work-With-Us-Contact{
+  position: absolute;
+  /* left: 150px;
+  top: -100px; */
+  margin: 130px 0px 0px 0px;
+  width: 108px;
+  height: 100px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #828282;
+}
+
+.company{
+  font-size: 16px;
+  font-weight: 500;
+  color: #ff981a;
+}
+
+.KodGarageFeatures-Pricing-Blog-Community {
+  position: absolute;
+  /* left: 150px;
+  top: -100px; */
+  margin: 130px 0px 0px 140px;
+  width: 108px;
+  height: 100px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #828282;
+}
+
+.Privacy-Privacy-Policy-Terms-and-Conditions-Websit {
+  position: absolute;
+  margin: 330px 0px 0px 0px;
+  width: 180px;
+  height: 100px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2;
+  letter-spacing: normal;
+  color: #828282;
+}
+
+.kodgarage2018{
+    position: absolute;
+  width: 200px;
+  height: 1px;
+  margin: 540px 0px 0px 0px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #828282;
+}
+
+.twitter-icon {
+  position: absolute;
+  margin: 430px 0px 0px 230px;
+  width: 40px;
+  height: 30px;
+  object-fit: contain;
+  mix-blend-mode: undefined;
+}
+
+.instagram-icon {
+  position: absolute;
+  margin: 480px 0px 0px 230px;
+  width: 40px;
+  height: 30px;
+  object-fit: contain;
+  mix-blend-mode: undefined;
+}
+
+.linkedin-icon {
+  position: absolute;
+  margin: 385px 0px 0px 230px;
+  width: 40px;
+  height: 30px;
+  object-fit: contain;
+  mix-blend-mode: undefined;
+}
+
+.fb-icon {
+  position: absolute;
+  margin: 340px 0px 0px 230px;
+  width: 40px;
+  height: 30px;
+  object-fit: contain;
+  mix-blend-mode: undefined;
+}
+
+.logo-icon{
+  position:absolute;
+  margin: 40px 0px 0px 0px;
+}
+
+}
+

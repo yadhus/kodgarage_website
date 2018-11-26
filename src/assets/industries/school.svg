@@ -1,0 +1,15 @@
+<svg width="85" height="68" viewBox="0 0 85 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="17" height="10" transform="translate(43 1)" fill="white"/>
+<rect width="1" height="17" transform="translate(42)" fill="white"/>
+<path d="M9 14H0V4.14815L4.73684 0L9 4.14815V14Z" transform="translate(38 53)" stroke="white"/>
+<path d="M17 0L0 17V45.5H10V35L17 29L24 35V45.5H33.5V17L17 0Z" transform="translate(25.5 21)" fill="white" stroke="white"/>
+<path d="M0 17L16 0L21.5 5" transform="translate(1 27)" stroke="white" stroke-width="2"/>
+<path d="M0 16L16 0L21 5" transform="translate(84 27.5) scale(-1 1)" stroke="white" stroke-width="2"/>
+<path d="M0 20L20.5 0L41.5 20" transform="translate(21.5 16.5)" stroke="white" stroke-width="2"/>
+<path d="M0.5 12L13 0L15.5 2L10.5 7H18.5V34.5H0L0.5 12Z" transform="translate(4.5 32)" fill="white" stroke="white"/>
+<path d="M0.5 12L13 0L15.5 2L10.5 7H18.5V34.5H0L0.5 12Z" transform="translate(80.5 32) scale(-1 1)" fill="white" stroke="white"/>
+<path d="M7 3L3.5 0L0 3V9H7V3Z" transform="translate(39 38)" stroke="#1D2733" stroke-width="2"/>
+<path d="M7 3L3.5 0L0 3V9H7V3Z" transform="translate(39 25)" stroke="#1D2733" stroke-width="2"/>
+<path d="M7 3L3.5 0L0 3V9H7V3Z" transform="translate(11 47)" stroke="#141D27" stroke-width="2"/>
+<path d="M7 3L3.5 0L0 3V9H7V3Z" transform="translate(67 47)" stroke="#131C26" stroke-width="2"/>
+</svg>

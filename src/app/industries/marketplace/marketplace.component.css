@@ -1,0 +1,128 @@
+.services{
+    padding: 10px;
+    margin-top: 10px;
+    font-family: Sansation;
+    font-size: 100px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #e0e0e0;
+}
+.heading{
+    margin-top: 20px;
+    font-family: Sansation;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.bg{
+    background-image: linear-gradient(to bottom, #2d3947, #111922);
+    height: 468px;
+}
+.container{
+    margin: -20px auto;
+}
+.contents{
+    padding-bottom: 10px;
+    /* margin-top: 50px; */
+    font-family: Sansation;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+.marketplace{
+    margin: 10px 0px 0px 0px;
+    width: 280px;
+    height: 280px;
+}
+
+button{
+    margin: 0px 0px 0px 0px;
+}
+.learnmore{
+    width: 191.1px;
+    height: 45.4px;
+    background-image: linear-gradient(110deg ,#ff8d00 0%, #ff8d00 0%, #ffc379 0%, #ff8d00 48%);
+    box-shadow: 5px 5px 5px 0 rgba(51, 51, 51, 0.5);
+    color: white;
+    /* padding: 10px; */
+    border: none;
+    border-radius: 4px;
+    font-family: Sansation;
+    font-size: 20px;
+}
+
+@media (max-width: 605px){
+    .bg{
+        background-image: linear-gradient(to bottom, #2d3947, #111922);
+        height: 550px;
+    }
+    .services{
+        padding: 10px;
+        margin-top: 10px;
+        font-family: Sansation;
+        font-size: 60px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #e0e0e0;
+    }
+    .heading{
+        position: absolute;
+        margin: 230px 0px 0px -100px;
+        font-family: Sansation;
+        font-size: 30px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.41;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .contents{
+        position: absolute;
+        margin: 270px 0px 0px -100px;
+        width: 220px;
+        padding-bottom: 10px;
+        font-family: Sansation;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+    .marketplace{
+        position: absolute;
+        margin: 10px 0px 0px 70px;
+        width: 200px;
+        height: 200px;
+    }
+    .learnmore{
+        position: absolute;
+        margin: 400px 0px 0px -100px;
+        width: 180px;
+        height: 40px;
+        background-image: linear-gradient(110deg ,#ff8d00 0%, #ff8d00 0%, #ffc379 0%, #ff8d00 48%);
+        box-shadow: 5px 5px 5px 0 rgba(51, 51, 51, 0.5);
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-family: Sansation;
+        font-size: 20px;
+    }
+
+}

@@ -1,0 +1,339 @@
+body, html {
+    height: 850px;
+    margin: 0;
+    background-color: #131c25;
+    background-size: 100%;
+    font-family: sansation;
+}
+*{
+    font-family: sansation;
+}
+
+.help{
+    padding: 60px 0px 30px 0px;
+    font-family: Sansation;
+    font-size: 80px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+
+.started{
+    padding-bottom: 60px;
+    font-family: Sansation;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    color: #c2c2c2;
+}
+
+
+/* * {
+    box-sizing: border-box;
+} */
+
+input[type=text],input[type=email], input[type=tel], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    resize: vertical;
+    border-color: #ffffff;
+    border-bottom: 1px solid lightgrey;
+}
+
+/* label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+} */
+
+button {
+    width: 191.1px;
+    height: 45.4px;
+    background-image: linear-gradient(110deg ,#ff8d00 0%, #ff8d00 0%, #ffc379 0%, #ff8d00 48%);
+    box-shadow: 5px 5px 5px 0 rgba(51, 51, 51, 0.5);
+    color: white;
+    /* padding: 12px 20px; */
+    border: none;
+    border-radius: 4px;
+    font-family: Sansation;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    position: relative;
+    top: -100px;
+    left: 450px;
+}
+
+.help-block{
+    position: absolute;
+    top: -30px;
+    color: red;
+}
+button:hover{
+    opacity: 0.5;
+}
+
+.btn{
+    color: #ffffff;
+}
+
+input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched{
+    border: 1px solid red;
+}
+
+.container {
+    align-self: center;
+    font-size: 20px;
+    height: 450px;
+    width: 700px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+img{
+    position: relative;
+    top: -50px;
+    left: 95px;
+}
+
+.email{
+    border-bottom: #131c25;
+    position: relative;
+    padding: 5px;
+    top: -225px;
+    left: 330px;
+    width: 350px;
+}
+
+.mobile{
+    position: relative;
+    padding: 5px;
+    top: -225px;
+    left: 330px;
+    width: 350px;
+}
+
+.name{
+    position: relative;
+    padding: 5px;
+    top: 0px;
+    width: 320px;
+    /* border-bottom:darkgray; */
+}
+
+.subject{
+    position: relative;
+    padding: 5px;
+    width: 320px;
+    top: 0px;
+}
+
+.message{
+    position: relative;
+    padding: 5px;
+    top: 0px;
+}
+
+.thank{
+    position: relative;
+    top: -160px;
+    left: 250px;
+    font-family: sansation;
+    font-weight: bold;
+    font-size: 40px;
+    color: black;
+}
+
+#content{
+    text-align: justify;
+    position: relative;
+    font-weight: 500;
+    top: 40px;
+    left: 0px;
+    font-family: sansation;
+    font-size: 30px;
+    color: black;
+}
+
+
+/* Clear floats after the columns */
+.ng-touched:after {
+    content: "";
+    display: table;
+    clear: all;
+}
+
+@media (max-width: 767px){
+
+    body, html {
+        height: 900px;
+        margin: 0;
+        background-color: #131c25;
+        background-size: 100%;
+        font-family: sansation;
+    }
+
+    .help{
+        padding: 60px 0px 30px 0px;
+        font-family: Sansation;
+        font-size: 50px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.5px;
+        color: #ffffff;
+    }
+
+    .started{
+        padding-bottom: 60px;
+        font-family: Sansation;
+        font-size: 30px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.3px;
+        color: #c2c2c2;
+    }
+    
+    
+    input[type=text],input[type=email], input[type=tel], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ffffff;
+        border-radius: 4px;
+        resize: vertical;
+        border-color: #ffffff;
+        border-bottom: 1px solid lightgrey;
+    }
+    
+    
+    button {
+        width: 191.1px;
+        height: 45.4px;
+        background-image: linear-gradient(110deg ,#ff8d00 0%, #ff8d00 0%, #ffc379 0%, #ff8d00 48%);
+        box-shadow: 5px 5px 5px 0 rgba(51, 51, 51, 0.5);
+        color: white;
+        /* padding: 12px 20px; */
+        border: none;
+        border-radius: 4px;
+        font-family: Sansation;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.2px;
+        color: #ffffff;
+        position: relative;
+        top: 40px;
+        left: 30px;
+    }
+    
+    .help-block{
+        position: absolute;
+        top: -30px;
+        color: red;
+    }
+    button:hover{
+        opacity: 0.5;
+    }
+    
+    .btn{
+        color: #ffffff;
+    }
+    
+    input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched{
+        border: 1px solid red;
+    }
+    
+    .container {
+        align-self: center;
+        font-size: 20px;
+        height: 600px;
+        width: 310px;
+        border-radius: 5px;
+        background-color: #ffffff;
+        padding: 20px;
+    }
+    
+    img{
+        height:70px;
+        width: 250px;
+        position: relative;
+        top: -50px;
+        left: 10px;
+    }
+    
+    .email{
+        position: relative;
+        padding: 5px;
+        top: 10px;
+        left: 0px;
+        width: 290px;
+    }
+
+    .name{
+        position: relative;
+        padding: 5px;
+        top: -20px;
+        width: 290px;
+        /* border-bottom:darkgray; */
+    }
+    
+    .subject{
+        position: relative;
+        padding: 5px;
+        width: 290px;
+        top: -20px;
+    }
+
+    .mobile{
+        position: relative;
+        padding: 5px;
+        top: 10px;
+        left: 0px;
+        width: 290px;
+    }
+    
+    .message{
+        position: relative;
+        padding: 5px;
+        left: 0;
+        top: 0px;
+    }
+
+    .thank{
+        position: relative;
+        font-weight: bold;
+        top: 50px;
+        left: 60px;
+        font-family: sansation;
+        font-size: 30px;
+        color: black;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .help{
+        font-size: 70px;
+    }
+    
+
+
+}

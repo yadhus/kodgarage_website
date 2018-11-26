@@ -1,0 +1,444 @@
+@media (min-width: 1025px){
+
+body, html {
+    height: 800px;
+    margin: 0;
+    background-image: linear-gradient(188deg, #ffffff 9%, #2d3947 0%, #111922 89%);
+    background-size: 100%;
+}
+
+div{
+    font-family: sansation;
+    color: #ffffff;
+}
+
+
+.ourteam{
+    margin: 70px 0px -160px 0px;
+    font-family: Sansation;
+    font-size: 80px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #e0e0e0;
+}
+
+
+.headpart{
+    text-align: center;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.digi1 {
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    /* max-width: 100%; */
+    margin: 240px 0px 0px 280px ;
+    /* padding: 0px 0px 50px 100px ; */
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.harish1 {
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    /* max-width: 100%; */
+    margin: 385px 0px 0px 160px ;
+    /* padding: 0px 0px 50px 100px ; */
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.samar1 {
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    /* max-width: 100%; */
+    margin: 530px 0px 0px 270px ;
+    /* padding: 0px 0px 50px 100px ; */
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.merve1 {
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    /* max-width: 100%; */
+    margin: 380px 0px 0px 420px ;
+    /* padding: 0px 0px 50px 100px ; */
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tamim1 {
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    /* max-width: 100%; */
+    margin: 245px 0px 0px 580px ;
+    /* padding: 0px 0px 50px 100px ; */
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box{
+    background-color: #2d3947;
+    text-align: center;
+    height: 110px;
+    width: 175px;
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+}
+.box:hover{
+    box-shadow: 0px 8px 18px 0px rgba(230, 111, 14, 0.3);
+}
+
+.middle1 {
+  transition: .5s ease;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: justify;
+}
+
+.middle2 {
+    transition: .5s ease;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: justify;
+}
+
+.middle3 {
+    transition: .5s ease;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: justify;
+}
+
+.middle4 {
+    transition: .5s ease;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: justify;
+}
+
+.middle5 {
+    transition: .5s ease;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: justify;
+}
+
+
+
+/* .digi1:hover {
+    background-color: #e88205;
+}
+
+.image2:hover {
+    background-color: #e88205;
+}
+
+.image3:hover {
+    background-color: #e88205;
+}
+
+.image4:hover  {
+    background-color: #e88205;
+}
+
+.image5:hover  {
+    background-color: #e88205;
+} */
+
+.digi1 .middle1 {
+display:block;
+}
+
+.harish1:hover .middle2 {
+    display: block;
+  }
+
+  .harish1:hover ~ .digi1>.middle1{
+    display: none;
+    }  
+
+.samar1:hover .middle3 {
+    display: block;
+  }
+ 
+.samar1:hover ~ .digi1>.middle1 {
+    display: none;
+  }
+
+.merve1:hover .middle4 {
+    display: block;
+  }
+
+  .merve1:hover ~ .digi1>.middle1 {
+    display: none;
+  }  
+
+.tamim1:hover .middle5 {
+    display: block;
+  }
+
+  .tamim1:hover ~ .digi1>.middle1 {
+    display: none;
+  }  
+
+.text1 {
+    position: relative;
+    top: 20px;
+    left: 550px;
+    height: 0px;
+    width: 370px;
+    color: white;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 1px; 
+}
+
+.text2 {
+    position: relative;
+    top: -125px;
+    left: 670px;
+    height: 0px;
+    width: 370px;
+    color: white;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 1px; 
+
+}
+
+.text3 {
+    position: relative;
+    top: -270px;
+    left: 560px;
+    height: 0px;
+    width: 370px;
+    color: white;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 1px; 
+
+}
+
+.text4 {
+    position: relative;
+    top: -120px;
+    left: 410px;
+    height: 0px;
+    width: 370px;
+    color: white;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 1px; 
+
+}
+
+.text5 {
+    position: relative;
+    top: 15px;
+    left: 250px;
+    height: 0px;
+    width: 370px;
+    color: white;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 1px; 
+
+}
+
+.dig{
+    position: relative;
+    /* left: 220px; */
+    top: 10px;
+    font-family: Sansation;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #828282;
+}
+
+.freak{
+    position: relative;
+    /* left: 220px; */
+    top: 20px;
+    font-family: Syncopate;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fc9616;
+}
+
+.harish{
+    position: relative;
+    /* left: 165px; */
+    top: 20px;
+    font-family: Sansation;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #828282
+}
+
+.xdev{
+    position: relative;
+    top: 30px;
+    /* left: 165px; */
+    font-family: Syncopate;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fc9616;
+}
+
+.samar{
+    position: relative;
+    top: 10px;
+    /* left: 210px; */
+    font-family: Sansation;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #828282;
+}
+
+.mafia{
+    position: relative;
+    top: 20px;
+    /* left: 210px; */
+    font-family: Syncopate;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fc9616;
+}
+
+.merve{
+    position: relative;
+    top: 10px;
+    /* left: 190px; */
+    font-family: Sansation;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #828282;
+}
+
+.designer{
+    position: relative;
+    top: 20px;
+    /* left: 190px;     */
+    font-family: Syncopate;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fc9616;
+}
+
+.tamim{
+    position: relative;
+    top: 10px;
+    /* left: 190px; */
+    font-family: Sansation;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #828282;
+}
+
+.king{
+    position: relative;
+    top: 20px;
+    /* left: 190px; */
+    font-family: Syncopate;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fc9616;
+}
+.box:hover .dig{
+    color: orange;
+}
+.box:hover .harish{
+    color: orange;
+}
+.box:hover .samar{
+    color: orange;
+}
+.box:hover .merve{
+    color: orange;
+}
+.box:hover .tamim{
+    color: orange;
+}
+
+}

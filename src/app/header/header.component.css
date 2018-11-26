@@ -1,0 +1,337 @@
+
+ @media (max-width: 767px) { 
+    
+    @font-face {
+       font-family: Sansation;
+       src: url(/assets/fonts/SansationLight.woff);
+    }
+    
+    li {
+        margin: 20px 0px 0px 0px;
+        font-family: 'Sansation';
+        font-weight: bold;
+        font-size: 18px;
+        position: relative;
+        height: 40px;
+        color: white;
+        letter-spacing: 1px;    
+        text-align: center;
+    }
+    
+    li:hover{
+        border-bottom: 2.2px solid rgba(255, 141, 0, 0.9);
+        color: rgba(255, 141, 0, 0.9);
+    }
+    
+    .my-navbar{
+        min-height: 60px;
+        border-radius: 0;
+        border:0;
+        background-color:#222C38;
+    }
+
+    .navbar-toggle{
+        margin: 15px 0px 0px 0px;
+    }
+    
+    .nav.navbar-nav.navbar-right li a {
+        color: white;
+        margin: 0px 0px 0px 0px;
+        font-size: 18px;
+        }
+    
+    .nav.navbar-nav.navbar-right li a:hover {
+        color: rgba(255, 141, 0, 0.9);
+    }
+
+    .navbar-header{
+        margin-left: 0px;
+        width:100%;
+      }
+
+      .navbar-brand {
+        padding: 0px;
+      }
+
+      .navbar-brand>img {
+        margin: 10px 0px 0px 20px;
+        height: 40px;
+        /* width: auto; */
+      }
+
+}
+
+
+.tag {
+    font-size: 100px;
+    /* width: 65%; */
+}
+
+.line {
+    margin: 0px;
+    line-height: 50px;
+    text-align: left;
+    position: relative;  
+    top: 170px;
+    left: 250px;
+    font-size: 25px;  
+    width: 70%;
+
+}
+a {
+    text-decoration: none;
+    color: inherit;
+   
+}
+
+.Rectangle-3 {
+    width: 255px;
+    height: 58px;
+    background-image: linear-gradient(#ff8d00, #ff8d00), linear-gradient(to top, #ffc379, #ff8d00 28%);
+    box-shadow: 5px 5px 5px 0 rgba(51, 51, 51, 0.5);
+    position: relative;
+    top: 200px;
+    left: 1000px;
+    font-family: sansation;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+.new{
+    font-family: sansation;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+    body{
+        height: 800px;
+        margin: 0;
+        background-image: url("/assets/background.png");
+        background-size: 100%;
+        color: #ffffff;
+        overflow: hidden;
+    }
+    
+    @font-face {
+       font-family: Sansation;
+       src: url(/assets/fonts/SansationLight.woff);
+    }
+    
+    li {
+        margin: 0px 0px 0px 0px;
+        font-family: 'Sansation';
+        font-weight: bold;
+        font-size: 20px;
+        position: relative;
+        height: 70px;
+        color: white;
+        letter-spacing: 1.5px;
+        padding: 14px 16px;
+    
+    
+    }
+    
+    li:hover{
+        border-bottom: 2.2px solid rgba(255, 141, 0, 0.9);
+        color: rgba(255, 141, 0, 0.9);
+    }
+    
+    .my-navbar{
+        border-radius: 0;
+        border:0;
+        background-color:#222C38;
+    }
+    
+    .nav.navbar-nav.navbar-right li a {
+        color: white;
+        margin: -20px 0px 0px 0px;
+        font-size: 22px;
+        }
+    
+    .nav.navbar-nav.navbar-right li a:hover {
+        color: rgba(255, 141, 0, 0.9);
+    }
+    .navbar-header{
+        margin-left: 0px;
+        width:100%;
+      }
+      .navbar-brand {
+        padding: 0px;
+      }
+      .navbar-brand>img {
+        margin: 20px 0px 0px 140px;
+        height: 80px;
+        /* width: auto; */
+      }
+    
+  
+} /*1rem = 16px*/
+
+ 
+
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1025px) {  
+
+    body{
+        height: 800px;
+        margin: 0;
+        background-image: url("/assets/background.png");
+        background-size: 100%;
+        color: #ffffff;
+        overflow: hidden;
+    }
+    
+    @font-face {
+       font-family: Sansation;
+       src: url(/assets/fonts/SansationLight.woff);
+    }
+    
+    li {
+        margin: 0px 0px 0px 0px;
+        font-family: 'Sansation';
+        font-weight: bold;
+        font-size: 20px;
+        position: relative;
+        height: 40px;
+        color: white;
+        letter-spacing: 1px;
+        /* padding: 14px 16px; */
+    
+    
+    }
+    
+    li:hover{
+        border-bottom: 2.2px solid rgba(255, 141, 0, 0.9);
+        color: rgba(255, 141, 0, 0.9);
+    }
+    
+    .my-navbar{
+        border-radius: 0;
+        border:0;
+        background-color:#222C38;
+    }
+    
+    .nav.navbar-nav.navbar-right li a {
+        color: white;
+        padding: 0px;
+        margin: -20px 0px 0px 0px;
+        font-size: 18px;
+        }
+    
+    .nav.navbar-nav.navbar-right li a:hover {
+        color: rgba(255, 141, 0, 0.9);
+    }
+    .navbar-header{
+        margin-left: 0px;
+        width:100%;
+      }
+      .navbar-brand {
+        padding: 0px;
+      }
+      .navbar-brand>img {
+        position: relative;
+        margin: 20px 0px 0px 40px;
+        height: 50px;
+        width: 200px;
+      }
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  
+    body{
+        height: 910px;
+        margin: 0;
+        background-image: url("/assets/background.png");
+        background-size: 200%;
+        color: #ffffff;
+        overflow: hidden;
+    }
+    
+    @font-face {
+       font-family: Sansation;
+       src: url(/assets/fonts/SansationLight.woff);
+    }
+    
+    li {
+        margin: 0px 0px 0px 0px;
+        font-family: 'Sansation';
+        font-weight: bold;
+        font-size: 20px;
+        position: relative;
+        height: 60px;
+        color: white;
+        letter-spacing: 1px;    
+        text-align: center;
+    }
+    
+    li:hover{
+        border-bottom: 2.2px solid rgba(255, 141, 0, 0.9);
+        color: rgba(255, 141, 0, 0.9);
+    }
+    
+    .my-navbar{
+        min-height: 110px;
+        border-radius: 0;
+        border:0;
+        background-color:#222C38;
+    }
+
+    .navbar-toggle{
+        margin: 15px 0px 0px 0px;
+    }
+    
+    .nav.navbar-nav.navbar-right li a {
+        color: white;
+        margin: 10px 0px 0px -10px;
+        font-size: 18px;
+        padding: 0px;
+        }
+    
+    .nav.navbar-nav.navbar-right li a:hover {
+        color: rgba(255, 141, 0, 0.9);
+    }
+
+    .navbar-header{
+        margin-left: 0px;
+        width:100%;
+      }
+
+      .navbar-brand {
+        padding: 0px;
+      }
+
+      .navbar-brand>img {
+        margin: 10px 0px 0px 20px;
+        height: 60px;
+        /* width: auto; */
+      }
+
+    .btn-group{
+        text-align: center;
+        position: relative;
+        left: 40px;
+        top: 80px;
+        width: 200px;
+        height: 40px;
+        font-family: sansation;
+        font-size: 18px;
+        font-weight: bold;
+        background-image: linear-gradient(110deg ,#ff8d00 0%, #ff8d00 0%, #ffc379 0%, #ff8d00 48%);
+        box-shadow: 5px 5px 5px 0 rgba(51, 51, 51, 0.5);
+        border: none;
+        border-radius: 4px;
+    }
+
+    
+}

@@ -1,0 +1,48 @@
+<body id="contactus">
+  <div  class="text-center help">WE'RE HERE TO HELP</div>
+  <div class="text-center started">Talk to us to get started</div>
+  <div>
+  <div class="container">
+    <img src="/assets/contactus.svg">
+      <form (ngSubmit)="onSubmit()" #f="ngForm" id="1">
+        <div id="user-data" ngModelGroup="userData" #userData="ngModelGroup">
+        <div class="row">
+          <div class="name">
+            <input type="text" id="name" placeholder="Name" ngModel name="name" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="subject">
+            <input type="text" id="subject" placeholder="Industry" ngModel name="subject" required>
+          </div>
+        </div>
+        <div class="row">
+            <div class="message">
+              <textarea id="message" placeholder="Message" ngModel name="message" required></textarea>
+            </div>
+          </div>
+        <div class="row">
+            <div class="email">
+                <span class="help-block" *ngIf="!email.valid && email.touched">please enter a valid email</span>
+                <input type="email" id="email" placeholder="Email" ngModel name="email" required email #email="ngModel">
+              </div>
+        </div>
+        <div class="row">
+          <div class="mobile">
+            <input type="tel" id="subject" placeholder="Mobile No" ngModel name="mobileNo" required>
+          </div>
+        </div>
+        <button id="btnClick" class="btn" type="submit" [disabled]="!f.valid">SEND MESSAGE</button>
+      </div>
+      </form>
+      <div id="content" style="display:none;">
+        Hey {{ contact.name }},Thank you for reaching out to Kodgarage! 
+        You are Awesome in taking the right decision. Talk to YOU soon.
+      </div>
+      <div class="row" *ngIf="submitted">
+        <div class="thank">Thank You!</div>
+      </div>
+    </div>
+  </div>
+  
+</body>

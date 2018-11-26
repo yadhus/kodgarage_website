@@ -1,0 +1,348 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    body, html {
+        height: 1200px;
+        margin: 0;
+        background-image: linear-gradient(190deg, #ffffff 8%, #2d3947 0%, #111922 98%);
+        background-size: 100%;
+        font-family: sansation;
+    }
+
+    .ourteam{
+        padding: 100px 0px 40px 0px;
+        font-family: Sansation;
+        font-size: 70px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #e0e0e0;
+    }
+
+    .box{
+        margin: 30px 0px 0px 0px;
+        background-color: #2d3947;
+        text-align: center;
+        height: 110px;
+        width: 170px;
+        box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+    }
+
+    .digi1 {
+        position: absolute;
+        max-width: 100%;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 80px ;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .harish1 {
+        position: absolute;
+        max-width: 100%;
+        margin: 220px 0px 0px 80px ;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .samar1 {
+        position: absolute;
+        max-width: 100%;
+        margin: 420px 0px 0px 80px ;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .merve1 {
+        position: absolute;
+        max-width: 100%;
+        margin: 610px 0px 0px 80px ;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    .tamim1 {
+        position: absolute;
+        max-width: 100%;
+        margin: 810px 0px 0px 80px ;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .dig{
+        position: relative;
+        /* left: 220px; */
+        top: 10px;
+        font-family: Sansation;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #828282;
+    }
+    
+    .freak{
+        position: relative;
+        /* left: 220px; */
+        top: 20px;
+        font-family: Syncopate;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #fc9616;
+    }
+    
+    .harish{
+        position: relative;
+        /* left: 170px; */
+        top: 10px;
+        font-family: Sansation;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #828282
+    }
+    
+    .xdev{
+        position: relative;
+        top: 20px;
+        /* left: 170px; */
+        font-family: Syncopate;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #fc9616;
+    }
+    
+    .samar{
+        position: relative;
+        top: 10px;
+        /* left: 210px; */
+        font-family: Sansation;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #828282;
+    }
+    
+    .mafia{
+        position: relative;
+        top: 20px;
+        /* left: 210px; */
+        font-family: Syncopate;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #fc9616;
+    }
+    
+    .merve{
+        position: relative;
+        top: 10px;
+        /* left: 190px; */
+        font-family: Sansation;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #828282;
+    }
+    
+    .designer{
+        position: relative;
+        top: 20px;
+        /* left: 190px;     */
+        font-family: Syncopate;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #fc9616;
+    }
+    
+    .tamim{
+        position: relative;
+        top: 10px;
+        /* left: 190px; */
+        font-family: Sansation;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #828282;
+    }
+    
+    .king{
+        position: relative;
+        top: 20px;
+        /* left: 190px; */
+        font-family: Syncopate;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #fc9616;
+    }
+    
+    .headpart{
+        display: none;
+    }
+
+    .text1>hr{
+        display: none;
+    }
+
+    .text2>hr{
+        display: none;
+    }
+
+    .text3>hr{
+        display: none;
+    }
+
+    .text4>hr{
+        display: none;
+    }
+
+    .text5>hr{
+        display: none;
+    }
+
+    .text1 {
+        position: absolute;
+        top: -20px;
+        left: 250px;
+        height: 0px;
+        width: 450px;
+        color: white;
+        font-size: 15px;
+        padding: 40px;
+        margin: 0px;
+        letter-spacing: 1px; 
+    }
+    
+    .text2 {
+        position: absolute;
+        top: -20px;
+        left: 250px;
+        height: 0px;
+        width: 450px;
+        color: white;
+        font-size: 15px;
+        padding: 40px;
+        margin: 0px;
+        letter-spacing: 1px; 
+    
+    }
+    
+    .text3 {
+        position: absolute;
+        top: -20px;
+        left: 250px;
+        height: 0px;
+        width: 450px;
+        color: white;
+        font-size: 15px;
+        padding: 40px;
+        margin: 0px;
+        letter-spacing: 1px; 
+    
+    }
+    
+    .text4 {
+        position: absolute;
+        top: -20px;
+        left: 250px;
+        height: 0px;
+        width: 450px;
+        color: white;
+        font-size: 15px;
+        padding: 40px;
+        margin: 0px;
+        letter-spacing: 1px; 
+    
+    }
+    
+    .text5 {
+        position: absolute;
+        top: -20px;
+        left: 250px;
+        height: 0px;
+        width: 450px;
+        color: white;
+        font-size: 15px;
+        padding: 40px;
+        margin: 0px;
+        letter-spacing: 1px;    
+    }
+    
+    .digi1 .middle1 {
+        display:block;
+        }
+        
+        .harish1 .middle2 {
+            display: block;
+          }
+        
+          .harish1:hover ~ .digi1>.middle1{
+            display: block;
+            }  
+        
+        .samar1 .middle3 {
+            display: block;
+          }
+         
+        .samar1:hover ~ .digi1>.middle1 {
+            display: block;
+          }
+        
+        .merve1 .middle4 {
+            display: block;
+          }
+        
+          .merve1:hover ~ .digi1>.middle1 {
+            display: block;
+          }  
+        
+        .tamim1 .middle5 {
+            display: block;
+          }
+        
+          .tamim1:hover ~ .digi1>.middle1 {
+            display: block;
+          }  
+
+
+}

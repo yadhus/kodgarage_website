@@ -1,0 +1,137 @@
+@media (min-width: 768px) and (max-width: 1024px){
+
+    body, html{
+        height: 700px;
+        /* background: #ffffff; */
+        background-image: linear-gradient(351deg, #ffffff 12%, #2d3947 0%, #111922 90%, #ffffff 0%);
+    }
+    
+    .products{
+        font-family: Sansation;
+        padding: 110px 0px 20px 0px ;
+        font-size: 70px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 1px;
+        color: #e0e0e0;
+      
+    }
+
+    .vision{
+        /* width: 700px; */
+        /* position: absolute; */
+        font-family: Sansation;
+        font-size: 18px;
+        font-weight: bold;
+        position:relative;
+        padding: 10px;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0px;
+        color: #ffffff;
+    }
+
+    .visionapp{
+        /* position: absolute; */
+        /* width: 400px;
+        height: 41px; */
+        /* margin: 0px 0px 0px 0px; */
+        padding: 10px;
+        font-family: Sansation;
+        font-size: 30px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 1px;
+        color: #ffffff;
+      
+    }
+    
+    
+    .carousel-indicators .active {
+        border-radius: 50%;
+        object-fit: contain;
+        background-image: url("/assets/Ellipseactive.svg");
+      }
+      
+      
+      .carousel-indicators li{
+          border: none;
+        width: 21px;
+        height: 21px;
+        border-radius: 50%;
+        object-fit: contain;
+        background-image: url("/assets/Ellipse.svg");
+      }
+      
+      .carousel-indicators >li {
+        bottom: 0px;
+        padding: 0px 0px 10px 0px;
+        /* letter-spacing: 20px; */
+      }
+      
+      .carousel-indicators li, .carousel-indicators li.active {
+        margin: 0px 10px !important;
+      }
+      
+      .carousel-inner{
+        min-height: 400px;
+        width: 85%;
+        margin: auto;
+      }
+  
+    
+
+    
+    .freetrail{
+        width: 190px;
+        height: 40px;
+        margin: 20px 0px 0px 10px;
+        /* padding: 10px 24px; */
+        font-family: Sansation;
+        font-size: 17px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.2px;
+        color: #ffffff;
+        background-image: linear-gradient(110deg ,#ff8d00 0%, #ff8d00 0%, #ffc379 0%, #ff8d00 48%);
+        box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
+        border: none;
+        border-radius: 4px;
+    }
+    
+    .freetrail:hover{
+        opacity: 0.5;
+        box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+    }
+    
+    .visionimg>img{
+        /* width: 350px;
+        height: 200px;
+        margin: 100px 0px 0px -100px;
+        padding: 0px;
+        position: absolute;
+        top: 0px;
+        left: 0px; */
+        max-width: 100%;
+    }
+    
+    .zippyimg>img{
+        /* width: 350px;
+        height: 150px;        
+        margin: 140px 0px 0px -100px;
+        padding: 0px;
+        position: absolute;
+        top: 0px;
+        left: 0px; */
+        max-width: 100%;
+    }
+
+
+}

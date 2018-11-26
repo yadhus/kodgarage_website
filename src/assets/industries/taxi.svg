@@ -1,0 +1,15 @@
+<svg width="107" height="55" viewBox="0 0 107 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="9" cy="9" r="7.5" transform="translate(13.5 36.998)" stroke="white" stroke-width="3"/>
+<circle cx="9" cy="9" r="7.5" transform="translate(76.5 36.998)" stroke="white" stroke-width="3"/>
+<path d="M9 45.4999C10.5 26.998 33.5 30 33.5 45.4999C33.6328 46.2575 33.8628 46.5786 34.5 47H70L72 46C72.5 26.998 97 28.998 96.5 46C96.4411 47.3288 96.9317 47.4703 98 47.5H103.5C104.506 47.3991 104.907 47.0792 105 45.5V40.5C104.817 39.5873 104.574 39.1898 103.5 39V26.5C103.127 25.481 102.72 25.0247 101.5 24.5L92 21C87.218 13.0896 83.3301 9.86151 73 7.5L72 2C71.4933 0.813739 71.0492 0.320924 69.7387 0H51.5C50.5305 0.0900317 50.0702 0.273471 49.5 1L47.5 8.5C37.3095 10.2736 32.5616 13.2626 25.5 21.5H20C15.71 22.0074 13.5 21.998 9 24C4.5 26.002 2.5 28.998 2.5 28.998H7.5C10 29.4961 10 33.7031 7.5 33.998H2L1.5 38.9999C0.539543 39.211 0.364651 39.693 0 40.4999V45.4999C0.474921 46.4939 0.942592 46.7826 2 46.9999H8C8.65708 46.7522 8.89246 46.4446 9 45.4999Z" transform="translate(1 1)" fill="white" stroke="white"/>
+<path d="M0 7.00391L1 0C3.79775 1.62819 6.31652 4.52739 7.5 7.00391H0Z" transform="translate(82 15.498)" fill="#131C25" stroke="#131C25"/>
+<path d="M0 11.5529L3 0.552918C7.1572 -0.393233 18 -0.45311 21 3.0517V3.05292L19.5 11.5529L0 11.5529Z" transform="translate(59 10.9512)" fill="#131C25" stroke="#131C25"/>
+<path d="M24 11.0508L27 0.0547336C13.3333 -0.436235 7.33976 2.30771 0 11.0508H24Z" transform="translate(31.5 11.4473)" fill="#131C25" stroke="#131C25"/>
+<rect width="5" height="5" transform="translate(36.5 29.002)" fill="#131C25"/>
+<rect width="5" height="5" transform="translate(41.5 34.002)" fill="#131C26"/>
+<rect width="5" height="5" transform="translate(46.5 29.002)" fill="#131C25"/>
+<rect width="5" height="5" transform="translate(51.5 34.002)" fill="#131C26"/>
+<rect width="5" height="5" transform="translate(57.5 29.002)" fill="#131C25"/>
+<rect width="5" height="5" transform="translate(67.5 29.002)" fill="#131C25"/>
+<rect width="5" height="5" transform="translate(62.5 34.002)" fill="#131C26"/>
+</svg>

@@ -1,0 +1,12 @@
+.bg{
+    color: #ffffff;
+    background-image: linear-gradient(to bottom, #2d3947, #111922);
+}
+.container{
+    margin: -20px auto;
+    font-size: 16px;
+}
+.heading{
+    color: yellow;
+    text-transform: uppercase;
+}
